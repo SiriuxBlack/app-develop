@@ -16,7 +16,7 @@ document.getElementById('LoginForm').addEventListener('submit',function(e){
         console.log('session start failed')
         mensaje ='session start failed';
         tipoAlerta = 'danger'
-
+    
     }
     let alerta = `<div class="alert alert-${tipoAlerta} alert-dismissible fade show" role="alert">
     ${mensaje}
